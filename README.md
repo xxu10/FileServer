@@ -10,10 +10,8 @@ In Netty, we can use the tools DelimiterBasedFrameDecoder or FixedLengthFrameDec
 
 In this project, I used a simple header+body structure. First is a 4-Byte filelength header, then 128-Byte filename header and then the file content
 
-* 
-* +-----+----------+-------------+
-* | len | filename | file content|
-* +-----+----------+-------------+
-* 
++-----+----------+-------------+
+| len | filename | file content|
++-----+----------+-------------+
 
-Netty is really good!
+Developed using Spring Boot and Netty
